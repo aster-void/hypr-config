@@ -6,7 +6,7 @@ hyprctl --batch "$HYPRCMDS"
 # try to defer a system shutdown
 # ( sleep 2; sudo shutdown now ) &  # doesn't work bc bg process is child of hyprland and will get killed with parent
 # f*!* it, just shutdown now
-sudo shutdown now
+shutdown -h now
 
 # exit hyprland
 # DON'T DO IT! Exiting hyprland aborts shutdown request.
